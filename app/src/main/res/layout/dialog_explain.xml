@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_wihte_radius_12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="27dp"
+            android:text="提额说明"
+            android:textColor="@color/color_030303"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginTop="10dp"
+            android:text="1.完成相应任务就有机会提高额度；\n2.额度只能以100的倍数领取：\n3.如发现恶意刷额度情况，XX有权收回相应额度甚至全部额度，最终解释权归XX所有。"
+            android:textColor="@color/color_7C7A7A"
+            android:textSize="14sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="23dp"
+            android:background="@color/color_EEEEEE"/>
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            android:paddingTop="8dp"
+            android:text="知道了"
+            android:textColor="@color/color_FB296B"
+            android:textSize="17sp"/>
+    </LinearLayout>
+</LinearLayout>
